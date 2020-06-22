@@ -1,0 +1,813 @@
+/* Section CSs */
+
+    .weekly-section{
+        margin-top: 30px;
+    }
+
+    .Title-section {
+        margin-top: 30px;
+        background-image: url(../img/element5-digital-z6i_UCBuu5Q-unsplash.jpg);
+        background-size: cover  ;
+        margin-bottom: 30px;
+    }
+/* Section Css end */
+
+/* Header CSS  */
+
+    *{
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .nav-mebelatis .navbar-brand{
+        color: black;
+    }
+
+    .nav-mebelatis .navbar-nav .nav-link {
+        color: black; 
+        font-size: 15px;
+    }
+
+    .nav-mebelatis a{
+        color: black;
+    }
+
+    .nav-mebelatis .nav-icons{
+        margin-right: 30px;
+    }
+    
+    .nav-mebelatis .nav-item{
+        margin-right: 30px;
+    }
+
+    .nav-mebelatis .navbar-nav .active {
+        border-bottom: 3px solid black;
+    }
+    .navbar .navbar-toggler {
+        color: black;
+    }
+
+    .nav-extensi ul{
+        margin-top: 10px;
+        list-style: none;
+        
+    }
+
+    .nav-extensi ul li {
+        display: inline;
+    }
+
+    
+
+/* END Header CSS */
+/* Jumbotron CSS */
+    .awal {
+        /* background-color: white; */
+        background-color: white;
+        background-image: url(../img/volodymyr-hryshchenko-L0oJ4Dlfyuo-unsplash.jpg);
+        background-size: cover;
+        background-position: 100px;
+        background-repeat: no-repeat;
+        height: 700px;
+    }
+
+    .awal2 {
+        margin-top: 150px;
+        
+        
+    }
+
+    .btn-jumbotron{
+
+        background-color: white;
+        border: 1px solid black;
+
+    }
+    /* Jumbotron CSS end */
+
+    /* Product Grid CSS*/
+
+        .product-top img{
+            width : 45%;
+            max-height: 250px;
+            object-fit: scale-down;
+            margin-top: 20%;
+            /* border: 1px solid black; */
+        }
+
+        .mebelatis-weekly{
+            margin-top: 50px;
+        }
+        
+        .product-top{
+            height: 250px;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            background-color: #dedede;
+        }
+
+        /* .product-top:before {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 25%;
+            background: rgba(87, 96, 111,0.8);
+            
+            bottom: -100%;
+            z-index : 1;
+            transform: rotate(25deg);
+            transform-origin: center top 0;
+            transition: .5s;
+            
+        } */
+         
+        /* .product-top:hover:before{
+            bottom: 0%;
+        } */
+
+        .product-top .img-thumbnail {
+            width: 100%;
+            height: auto;
+        }
+
+        .overlay {
+            width: 100%;
+            padding: 0 20px;
+            position:absolute;
+            bottom : -100%;
+            left: 0;
+            z-index: 2;
+            transition: 0.5s;
+            background-color:rgba(87, 96, 111,0.8); ;
+        }
+
+        .product-top:hover .overlay{
+            bottom: 0%;
+        }
+
+        .product-btn{
+            background-color:rgba(87, 96, 111,0.0);
+            color: white;
+            width: 100%;
+        }
+
+        .product-bottom {
+
+            margin-top : 30px;
+
+        }
+
+    /* Product Grid Css End */
+
+    /* Carousel CSS  */
+
+    .Mebelatis-carousel{
+
+        height: auto;
+        
+        max-height: 600px;
+        width: auto;
+        overflow: hidden;
+
+        color: black;
+
+    }
+
+    .Mebelatis-carousel .carousel-control-prev {
+        color: black;
+        font-size: 50px;
+    }
+    
+    .Mebelatis-carousel .carousel-control-next {
+        color: black;
+        font-size: 50px;
+    }
+
+    .Mebelatis-carousel .carousel-caption {
+        color : black;
+    }
+
+    .Mebelatis-carousel .Mebelatis-carousel-desc{
+        position: absolute;
+        top : 170px;
+        text-align: justify;
+        width: 30%;
+    }
+    
+    /* Carousel CSS end */
+
+    /* Why us CSS  */
+
+    .garis-why-us{
+        margin-top: 30px;
+        border-top: 1px solid gray;
+        border-bottom: 1px solid gray;
+    }
+
+    /* Why us CSS end */
+
+    /* Blog CSS */
+
+    .blog-desc {
+        background-color: aqua;
+    }
+
+    .blog-gambar{
+        background-color: yellowgreen;
+    }
+
+    .blog-deck{
+        
+        margin-top: 50px;
+
+    }
+
+    .blog-deck img{
+        width: 100%;
+        height: 400px;
+        
+    }
+
+    .block-deck .blog-body {
+        text-align :left;
+    }
+
+    
+
+    /* Blog CSS end */
+
+    /* Subscribe CSS */
+
+    .subs {
+        background-image: url(../img/element5-digital-z6i_UCBuu5Q-unsplash.jpg);
+        background-size: cover;
+       
+        height: 250px;
+    }
+
+    .subscribe-section{
+        
+        height: 200px;
+        margin-top: 50px;
+
+    }
+
+    .form-subscribe{
+        border-radius: 0px;
+    }
+
+    .btn-subscribe{
+        border-radius: 0px;
+    }
+    /* Subscribe CSS End */
+
+    /* Navbar Bottom  CSS */
+        .nav-bottom ul{
+            list-style: none;
+        }
+
+        .nav-bottom ul li{
+            display: inline;
+        }
+
+        .bot-nav {
+            border-bottom: 1px solid gray;
+        }
+    /* Navbar Bottom  CSS END */
+
+
+
+    /* Shop CSS */
+
+        .shop-pagi .page-link{
+            color : black;
+        }
+
+        button.expand-filter {
+            background-color: transparent;
+            border : none;
+            color : black;
+        }
+
+        button.expand-filter:hover {
+            background-color: rgba(87, 96, 111,0.3);
+
+        }
+
+        .filterMenu{
+            position: fixed;
+			top: 0px;
+			left: 0px;
+			height: 100%;
+			width: 0px;
+			background-color: white;
+			z-index: 1;
+			padding-top: 50px;
+            overflow-x: hidden;
+            transition: all .5s;
+            border-right: 1px solid gray;
+        }
+
+        .filterMenu a {
+            padding: 8px 8px 8px 40px;
+			text-decoration: none;
+			font-size: 20px;
+			color: Black;
+            display: block;
+            transition: all .5s;
+        }
+
+        .filterMenu .form-group {
+            padding: 8px 8px 8px 64px;
+			text-decoration: none;
+			/* font-size: 20px; */
+			color: #999;
+            display: block;
+            transition: all .5s;
+            margin-bottom: 0;
+        }
+        .filterMenu .closebtn {
+            position: absolute;
+			top: 0px;
+			right: 25px;
+			font-size: 36px;
+            margin-left: 32px;
+            
+        }
+
+        .middle {
+            position: absolute;
+            width: 80%;
+            margin-left: 25px;
+            max-width: 500px;
+            margin-top : 10px;
+        }
+        
+        .slider {
+            position: relative;
+            z-index: 1;
+            height: 3px;
+            margin: 0 15px;
+        }
+        .slider > .track {
+            position: absolute;
+            z-index: 1;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            border-radius: 5px;
+            background-color: #c6aee7;
+        }
+        .slider > .range {
+            position: absolute;
+            z-index: 2;
+            left: 25%;
+            right: 25%;
+            top: 0;
+            bottom: 0;
+            border-radius: 5px;
+            background-color: #ffbf29;
+        }
+        .slider > .thumb {
+            position: absolute;
+            z-index: 1;
+            width: 20px;
+            height: 20px;
+            background-color: white;
+            border : 1px solid #ffbf29;
+            border-radius: 50%;
+            box-shadow: 0 0 0 0 rgba(98,0,238,.1);
+            transition: box-shadow .3s ease-in-out;
+        }
+        .slider > .thumb.left {
+            left: 25%;
+            transform: translate(-20px, -9px);
+        }
+        .slider > .thumb.right {
+            right: 25%;
+            transform: translate(20px, -9px);
+        }
+        .slider > .thumb.hover {
+            box-shadow: 0 0 0 20px rgba(98,0,238,.1);
+        }
+        .slider > .thumb.active {
+            box-shadow: 0 0 0 40px rgba(98,0,238,.2);
+        }
+        
+        input[type=range] {
+            position: absolute;
+            pointer-events: none;
+            -webkit-appearance: none;
+            z-index: 2;
+            height: 10px;
+            width: 100%;
+            opacity: 0;
+        }
+        input[type=range]::-webkit-slider-thumb {
+            pointer-events: all;
+            width: 20px;
+            height: 20px;
+            border-radius: 0;
+            border: 0 none;
+            background-color: red;
+            -webkit-appearance: none;
+        }
+        
+    /* Shop CSS end  */
+
+    /* Product Details Section */
+        
+        .detail-section{
+            
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+        
+        .products {
+            height: 600px;
+            margin-bottom: 50px;
+        }
+        .product {
+            position: relative;
+            
+            /* background-color: aqua; */
+        }
+
+        .small-img {
+            height: 100px;
+            width: 450px;
+            float:left;
+            position: absolute;
+            
+        } 
+
+        .small-img .col-md-2 {
+            /* background-color: red; */
+            margin-top: 10px;
+            margin-right: 10px;
+            background-color: #d4d4d4;
+            opacity : 0.7;            
+            height: 90px;
+            cursor: pointer;
+            
+        }
+
+        .small-img  .active {
+            opacity: 1;
+        }
+
+        .small-img .col-md-2 img {
+
+            margin-top: 30%;
+            width: 90%;
+            /* margin: 10px 10px 10px 10px; */
+            /* background-color: aqua; */
+            
+            
+
+        }
+
+        .small-img .row {
+            margin-left: 10px;
+        }
+
+        .img-container img {
+            width: 80%;
+            margin-top: 10%;
+        }
+
+        
+
+        .img-container{
+            width: 420px;
+            height: 400px;
+            margin-bottom: 20px;
+            margin-left: 10px;
+            background-color: #d4d4d4;
+        }
+
+        @media screen and (max-width: 780px) {
+        body {
+            /* background-color: lightgreen; */
+        }
+        .small-img .col-md-2 {
+            /* background-color: red; */
+            
+            margin-right: 10px;
+            height: 100px;
+            width:100px; 
+            background-color: #f5f5f5;
+        }
+
+        .small-img {
+            width: 100%;
+        }
+
+        .small-img .col-md-2 img {
+
+            margin-top: 20%;
+            width: 70%;
+            margin-left: 10%;
+            /* margin: 10px 10px 10px 10px; */
+            /* background-color: aqua; */
+            
+            
+        }
+
+        .small-img .row {
+            width: 330px;
+            margin-left: 0;
+            height: 230px;
+            /* background-color: blue; */
+            overflow: hidden;
+        }
+
+        .img-container {
+            width: 330px;
+            background-color: #d4d4d4;
+        }
+
+        .img-container img {
+            margin-top: 20%;
+        }
+
+        }
+
+        @media screen and (max-width: 991px) {
+            body {
+                /* background-color: lightgreen; */
+            }
+            .small-img .col-md-2 {
+                /* background-color: red; */
+                
+                margin-right: 10px;
+                height: 100px;
+                width:100px; 
+                background-color: #f5f5f5;
+            }
+    
+            .small-img {
+                width: 100%;
+            }
+    
+            .small-img .col-md-2 img {
+    
+                margin-top: 20%;
+                width: 70%;
+                margin-left: 10%;
+                /* margin: 10px 10px 10px 10px; */
+                /* background-color: aqua; */
+                
+                
+            }
+    
+            .small-img .row {
+                width: 330px;
+                margin-left: 0;
+                height: 230px;
+                /* background-color: blue; */
+                overflow: hidden;
+            }
+    
+            .img-container {
+                width: 330px;
+                background-color: #d4d4d4;
+            }
+    
+            .img-container img {
+                margin-top: 20%;
+            }
+            
+            .tambah-keranjang {
+                width : 140px;
+            }
+
+            .spinner {
+                width : 100px;
+            }
+
+            }
+
+        .detail-section .pDetailcontainer p {
+            font-size: 10px;
+        }
+
+        .btn-outline-secondary {
+            border: 1px solid gray;
+            border-radius: 0px;
+            color: black;
+          }
+  
+          .btn-decrement {
+            
+            border-right: 0px;
+            
+          }
+          .btn-increment {
+            
+            border-left: 0px;
+          }
+          
+          .spinner{
+              width: 150px;
+              margin-right: 10px;
+              margin-left: 15px;
+              float: left;
+
+          }
+          
+          .tambah-keranjang {
+              border-radius : 0px;
+          }
+          
+          .qty {
+            border: 1px solid gray;
+            border-right: 0px;
+            border-left: 0px;
+            
+          }
+          
+    /* Product Details Section End */
+    
+    /* Cart Page */
+
+    .qty2 {
+        border: 1px solid gray;
+        border-right: 0px;
+        border-left: 0px;
+        height: 30px;
+        
+        
+      }
+      
+      .cart-body .spinner {
+          width : 120px;
+          margin-top : 30%;
+      }
+
+      .text-table-center {
+
+        text-align: center;
+
+      }
+
+      .cart-body .btn-decrement {
+        height: 30px;
+        border-right: 0px;
+        
+      }
+
+      .cart-body .btn-increment {
+        height: 30px;
+        border-left: 0px;
+      }
+
+      .cartP-items {
+        height: 120px;
+        width : 130px;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        background-color: gray;
+      }
+
+      .cartP-items img {
+        width : 40%;
+        max-height: 250px;
+        object-fit: scale-down;
+        margin-top: 20%;
+      }
+
+      .det-cart {
+          margin-top: 50%;
+           
+      }
+
+      .cart-body {
+          margin-top : 100px;
+      }
+
+      .cart-body a {
+        color : black;        
+        margin-top: 50% ;
+
+      }
+
+      .cart-body .cancel-cart {
+        
+        margin-top : 50px;
+        text-align: center;
+        width : 30px;
+        font-size : 30px;
+
+      }
+
+      .total-cart {
+          background-color: #f5f5f5 ;
+      }
+    /* Cart Page End */
+
+    /* Cart Menu  */
+
+    .cartMenu{
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        height: 100%;
+        width: 0px;
+        background-color: white;
+        z-index: 1;
+        padding-top: 50px;
+        overflow-x: hidden;
+        transition: all .5s;
+        border-left: 1px solid gray;
+    }
+
+    .cartMenu a {
+        padding: 8px 8px 8px 40px;
+        text-decoration: none;
+        font-size: 20px;
+        color: Black;
+        display: block;
+        transition: all .5s;
+    }
+
+    .cartMenu .closebtn {
+        position: absolute;
+        top: 0px;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 32px;
+        
+    }
+
+    .cartMenu .cancel-row{
+        /* background-color: aqua; */
+        
+    }
+
+    .cartMenu .cancel-cart {
+        padding : 0;
+        margin-top : 40%;
+        text-align: center;
+        width : 30px;
+        font-size : 30px;
+
+    }
+
+    .cartMenu .cancel-cart:hover {
+        color: white;
+        background-color: gray;
+        
+    }
+
+    .cartMenu .cart-table tr {
+        
+        border-bottom: 1px solid #dedede;
+    }
+
+    .shop-cart-item{
+        height: 135px;
+    }
+    .shop-cart-item img{
+        width : 100px;
+        height: 100px;
+    }
+    /* Cart Menu end */
+
+    /* Blog Page  */
+
+    .body-blog .top {
+        margin-bottom : 40px;
+    }
+
+    .bttom .blog2 {
+
+        margin-top : 40px;
+
+    }
+
+    .bttom h4 {
+        color : gray;
+        width: 100%; 
+        text-align: center; 
+        border-bottom: 1px solid gray; 
+        line-height: 0.1em;
+        margin: 10px 0 20px; 
+     } 
+     
+     .bttom h4 span { 
+         background:#fff; 
+         padding:0 10px; 
+     }
+
+    /* Blog Page End */
+
+
+    /* Lain Lain  */
+
+
+    .cr {
+        text-align : left;
+    }
